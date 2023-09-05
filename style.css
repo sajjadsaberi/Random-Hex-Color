@@ -1,0 +1,54 @@
+@font-face {
+    font-family: 'IranYekanX';
+    src:  url('font/woff/IRANYekanX-Regular.woff') format('woff'),
+          url('font/woff2/IRANYekanX-Regular.woff2') format('woff2');
+  }
+  
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --bgcolor: #333 ;
+    --whiteColor: #fff;
+}
+
+body {
+    font-size: 15pt;
+  }
+
+  button {
+    width: 150px;
+    height: 50px;
+    background-color: var(--bgcolor);
+    margin: 50px auto ;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0px 0px 5px var(--bgcolor);
+    font-family: IranYekanX ;
+    font-weight: bold;
+    color: var(--whiteColor);
+  }
+
+  div {
+    width: 100%;
+    height: 70px;
+    text-align: center;
+    padding-top: 25px;
+    font-family: IranYekanX ;
+    font-weight: bold;
+  }
+
+#powered {
+   margin: 100px auto ;
+   font-family: IranYekanX ;
+   font-weight: 400 ;
+   cursor: pointer ;
+}
+
+h4 a {
+   text-decoration: none ;
+   color: var(--bgcolor) ;
+}
